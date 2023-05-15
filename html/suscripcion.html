@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/darkmode.css">
+
+    <title>Suscribirse</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-miClase ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Despacho.html">Despachos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Iniciar Secion.html">Iniciar Sesion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Contactanos.html">Contactanos</a>
+              </li> 
+              <li><label class="switch">
+                <input type="checkbox" id="dark-mode-toggle">
+                <span class="slider round"></span>
+                </label></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container-clock">
+        <h1 id="time">00:00:00</h1>
+        <p id="date">date</p>
+      </div>
+      <div class="container mt-5">
+        <h1>Suscripción</h1>
+    </div>
+
+
+    <div class="container mt-5">
+        <form action="#" id="miFormulario">
+            <div class="row">
+
+                <div class="col">
+                    <label for="txtCorreo">Correo Electrónico:</label>
+                    <input name="correo" type="email" id="txtCorreo" class="form-control" placeholder="Ej: 12.123.123-2">
+                </div>
+
+                <div class="col">
+                    <label for="txtNombre">Nombre:</label>
+                    <input name="nombre" type="text" id="txtNombre" class="form-control" placeholder="Ingrese su nombre">
+                </div>
+
+                <div class="col">
+                    <label for="txtPassword">Contraseña:</label>
+                    <input name="password" type="password" id="txtPassword" class="form-control" placeholder="Ingrese su apellido">
+                </div>
+            </div>
+            <button class="btn btn-primary mt-5 w-100">Suscribirse</button>
+        </form>
+    </div>
+
+    
+
+
+
+    <script src="/js/jquery.validate.min.js"></script>
+		<script src="/js/jquery.js"></script>
+		<script src="/js/jquery-3.6.4.min.js"></script>
+    <script src="/js/relo.js"></script>
+    <script src="/js/moscuro.js"></script>
+    <script src="/js/index.js"></script>
+    
+</body>
+</html>
